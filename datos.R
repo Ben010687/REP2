@@ -4,8 +4,9 @@ library(gitcreds)
 
 usethis::create_github_token()
 gitcreds::gitcreds_set()
+usethis::use_github()
 
-
+#######################################
 
 datos = rnorm(2000)
 hist(datos)
